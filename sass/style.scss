@@ -1,0 +1,34 @@
+@import "base";
+
+.nav {
+  background-color: #1976d2;
+
+  &-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &-item {
+    padding: 1rem;
+    font-size: 1.8rem;
+    &:hover {
+      background-color: #03a9f4;
+    }
+  }
+  &-link {
+    color: #fff;
+    text-decoration: none;
+    // &:active {
+    //   color: #bdbdbd;
+    // }
+  }
+}
+
+#about,
+#projects,
+#contact {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
