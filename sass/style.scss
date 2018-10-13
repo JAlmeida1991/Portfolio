@@ -1,8 +1,21 @@
 @import "base";
 
-.nav {
-  background-color: #1976d2;
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: $dark-primary-color;
+  align-items: center;
+}
 
+.author {
+  color: $text-primary-color;
+  font-family: cursive;
+  font-size: 2.2rem;
+  padding-left: 1rem;
+  font-weight: normal;
+}
+
+.nav {
   &-list {
     list-style: none;
     display: flex;
@@ -13,15 +26,12 @@
     padding: 1rem;
     font-size: 1.8rem;
     &:hover {
-      background-color: #03a9f4;
+      background-color: $accent-color;
     }
   }
   &-link {
-    color: #fff;
+    color: $text-primary-color;
     text-decoration: none;
-    // &:active {
-    //   color: #bdbdbd;
-    // }
   }
 }
 
@@ -38,5 +48,12 @@
   justify-content: center;
   & > * {
     margin: 1rem;
+  }
+}
+
+.project {
+  &-img {
+    height: auto;
+    width: 100%;
   }
 }
