@@ -33,10 +33,10 @@
   margin-left: 0.5rem;
 }
 
-.project {
-  float: left;
-}
-
-#contact {
-  clear: both;
+.container {
+  display: flex;
+  justify-content: center;
+  & > * {
+    margin: 1rem;
+  }
 }
