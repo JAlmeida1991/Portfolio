@@ -25,3 +25,11 @@ body {
   font-family: sans-serif;
   background-color: $light-primary-color;
 }
+
+#about,
+#projects,
+#contact {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}

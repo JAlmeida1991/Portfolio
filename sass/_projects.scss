@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+  & > * {
+    margin: 1rem;
+  }
+}
+
+.project {
+  &-img {
+    height: auto;
+    width: 100%;
+  }
+}

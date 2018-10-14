@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: $dark-primary-color;
+  align-items: center;
+}
+
+.author {
+  color: $text-primary-color;
+  font-family: cursive;
+  font-size: 2.2rem;
+  padding-left: 1rem;
+  font-weight: normal;
+}
+
+.nav {
+  &-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &-item {
+    padding: 1rem;
+    font-size: 1.8rem;
+    &:hover {
+      background-color: $accent-color;
+    }
+  }
+  &-link {
+    color: $text-primary-color;
+    text-decoration: none;
+  }
+}

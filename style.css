@@ -17,6 +17,40 @@ body {
   background-color: #bbdefb;
 }
 
+#about,
+#projects,
+#contact {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+
+.intro {
+  margin-top: 1rem;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container > * {
+  margin: 1rem;
+}
+
+.project-img {
+  height: auto;
+  width: 100%;
+}
+
+.contact-icon {
+  font-size: 5rem;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -60,31 +94,5 @@ body {
 .nav-link {
   color: #fff;
   text-decoration: none;
-}
-
-#about,
-#projects,
-#contact {
-  font-size: 2rem;
-  margin-top: 1rem;
-  margin-left: 0.5rem;
-}
-
-.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.container > * {
-  margin: 1rem;
-}
-
-.project-img {
-  height: auto;
-  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
