@@ -17,16 +17,36 @@ body {
   background-color: #bbdefb;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 #about,
 #projects,
 #contact {
   font-size: 2rem;
   margin-top: 1rem;
-  margin-left: 0.5rem;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+#about {
+  color: #212121;
+  border-bottom: 2px solid #bdbdbd;
+}
+
+#about h1 {
+  color: #757575;
+}
+
+#about h1::first-letter {
+  font-size: 200%;
 }
 
 .intro {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
+  line-height: 2.5rem;
+  padding: 1.5rem;
 }
 
 .container {
@@ -49,6 +69,7 @@ body {
 
 .contact-icon {
   font-size: 5rem;
+  color: #2196f3;
 }
 
 .header {
