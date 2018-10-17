@@ -22,14 +22,6 @@ body {
   height: 100%;
 }
 
-#about,
-#projects,
-#contact {
-  font-size: 2rem;
-  margin-top: 1rem;
-  margin: 0 0.5rem 0 0.5rem;
-}
-
 #about {
   color: #212121;
   border-bottom: 2px solid #bdbdbd;
@@ -43,23 +35,38 @@ body {
   font-size: 200%;
 }
 
+#about i {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.fa-html5 {
+  color: orangered;
+}
+
+.fa-css3 {
+  color: blue;
+}
+
+.fa-js {
+  color: yellow;
+}
+
+.fa-sass {
+  color: hotpink;
+}
+
+.fa-git {
+  color: black;
+}
+
+.fa-react {
+  color: lightseagreen;
+}
+
 .intro {
-  margin-top: 0.5rem;
   line-height: 2.5rem;
-  padding: 1.5rem;
-}
-
-.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.container > * {
-  margin: 1rem;
+  margin: 0.5rem 1.5rem 1.5rem 1.5rem;
 }
 
 .project-img {
@@ -115,5 +122,26 @@ body {
 .nav-link {
   color: #fff;
   text-decoration: none;
+}
+
+#about,
+#projects,
+#contact {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container > * {
+  margin: 1rem;
 }
 /*# sourceMappingURL=style.css.map */

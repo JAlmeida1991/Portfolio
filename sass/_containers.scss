@@ -1,0 +1,17 @@
+#about,
+#projects,
+#contact {
+  font-size: 2rem;
+  margin-top: 1rem;
+  // margin-left: 0.5rem;
+  // margin-right: 0.5rem;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  & > * {
+    margin: 1rem;
+  }
+}

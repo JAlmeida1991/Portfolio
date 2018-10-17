@@ -7,11 +7,37 @@
       font-size: 200%;
     }
   }
+  i {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.fa-html5 {
+  color: orangered;
+}
+
+.fa-css3 {
+  color: blue;
+}
+
+.fa-js {
+  color: yellow;
+}
+
+.fa-sass {
+  color: hotpink;
+}
+
+.fa-git {
+  color: black;
+}
+
+.fa-react {
+  color: lightseagreen;
 }
 
 .intro {
-  margin-top: 0.5rem;
   line-height: 2.5rem;
-  padding: 1.5rem;
-  // background-color: red;
+  margin: 0.5rem 1.5rem 1.5rem 1.5rem;
 }
