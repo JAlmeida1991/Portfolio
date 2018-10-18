@@ -1,15 +1,37 @@
 #about {
   color: $primary-text-color;
   border-bottom: 2px solid $divider-color;
-  h1 {
-    color: $secondary-text-color;
-    &::first-letter {
-      font-size: 200%;
-    }
+  height: 85vh;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.about__title {
+  color: $secondary-text-color;
+  &::first-letter {
+    font-size: 200%;
   }
-  i {
+}
+
+.about__intro {
+  line-height: 2.5rem;
+  margin: 0.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.about__title--sub {
+  font-family: Loto sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  @media screen and (max-width: 30rem) {
+    font-size: 2.5rem;
+  }
+}
+
+.about-skill {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  @media screen and (max-width: 30rem) {
     font-size: 3.5rem;
-    margin-bottom: 2rem;
   }
 }
 
@@ -35,9 +57,4 @@
 
 .fa-react {
   color: lightseagreen;
-}
-
-.intro {
-  line-height: 2.5rem;
-  margin: 0.5rem 1.5rem 1.5rem 1.5rem;
 }
