@@ -1,9 +1,9 @@
 #about {
-  color: $primary-text-color;
-  border-bottom: 2px solid $divider-color;
-  height: 85vh;
   display: flex;
   flex-flow: column nowrap;
+  color: $primary-text-color;
+  border-bottom: 0.4rem solid $divider-color;
+  height: 85vh;
 }
 
 .about__title {
