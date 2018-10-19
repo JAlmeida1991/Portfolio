@@ -1,6 +1,10 @@
-.project {
-  &-img {
-    height: auto;
-    width: 100%;
+#projects {
+  border-bottom: 0.4rem solid $divider-color;
+}
+
+.projects-title {
+  color: darken($secondary-text-color, 15%);
+  &::first-letter {
+    font-size: 130%;
   }
 }
