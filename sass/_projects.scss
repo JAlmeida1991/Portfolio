@@ -1,5 +1,16 @@
 #projects {
-  border-bottom: 0.4rem solid $divider-color;
+  border-bottom: 0.4rem solid black;
+  max-width: 135rem;
+}
+
+.project {
+  width: 25rem;
+  height: 25rem;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .projects-title {

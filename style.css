@@ -98,7 +98,18 @@ body {
 }
 
 #projects {
-  border-bottom: 0.4rem solid #bdbdbd;
+  border-bottom: 0.4rem solid black;
+  max-width: 135rem;
+}
+
+.project {
+  width: 25rem;
+  height: 25rem;
+}
+
+.project img {
+  width: 100%;
+  height: 100%;
 }
 
 .projects-title {
@@ -199,6 +210,5 @@ body {
   -ms-grid-columns: (minmax(250px, 1fr))[auto-fill];
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 1rem;
-  grid-auto-flow: dense;
 }
 /*# sourceMappingURL=style.css.map */
