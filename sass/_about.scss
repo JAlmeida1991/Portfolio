@@ -16,6 +16,10 @@
 .about__intro {
   line-height: 2.5rem;
   margin: 0.5rem 1.5rem 1.5rem 1.5rem;
+  // Might need to change this later
+  @media screen and (max-width: 30rem) {
+    font-size: 1.6rem;
+  }
 }
 
 .about__title--sub {
