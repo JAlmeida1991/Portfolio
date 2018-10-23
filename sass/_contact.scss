@@ -2,3 +2,19 @@
   font-size: 5rem;
   color: $default-primary-color;
 }
+
+.contact-about {
+  color: $primary-text-color;
+  line-height: 2.5rem;
+  margin: 0.5rem 1.5rem 1.5rem 1.5rem;
+  @media screen and (max-width: 30rem) {
+    font-size: 1.6rem;
+  }
+}
+
+.contact-title {
+  color: darken($secondary-text-color, 15%);
+  &::first-letter {
+    font-size: 130%;
+  }
+}
