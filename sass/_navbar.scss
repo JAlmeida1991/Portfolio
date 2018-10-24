@@ -5,7 +5,8 @@
   align-items: center;
 }
 
-.author {
+.header::before {
+  content: "J.A.";
   color: $text-primary-color;
   font-family: cursive;
   font-size: 2.2rem;

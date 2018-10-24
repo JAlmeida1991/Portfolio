@@ -37,12 +37,19 @@ body {
   height: 85vh;
 }
 
+@media screen and (max-width: 30rem) {
+  #about {
+    height: auto;
+  }
+}
+
 .about__title {
   color: #5c5c5c;
 }
 
 .about__title::first-letter {
-  font-size: 200%;
+  font-size: 150%;
+  color: #4f4f4f;
 }
 
 .about__intro {
@@ -119,12 +126,13 @@ body {
 }
 
 .projects-title {
-  color: #4f4f4f;
+  color: #5c5c5c;
   margin-bottom: 1rem;
 }
 
 .projects-title::first-letter {
-  font-size: 130%;
+  font-size: 150%;
+  color: #4f4f4f;
 }
 
 .contact-icon {
@@ -145,11 +153,12 @@ body {
 }
 
 .contact-title {
-  color: #4f4f4f;
+  color: #5c5c5c;
 }
 
 .contact-title::first-letter {
-  font-size: 130%;
+  font-size: 150%;
+  color: #4f4f4f;
 }
 
 .header {
@@ -165,7 +174,8 @@ body {
           align-items: center;
 }
 
-.author {
+.header::before {
+  content: "J.A.";
   color: #fff;
   font-family: cursive;
   font-size: 2.2rem;

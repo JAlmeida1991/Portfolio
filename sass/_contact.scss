@@ -13,8 +13,9 @@
 }
 
 .contact-title {
-  color: darken($secondary-text-color, 15%);
+  color: darken($secondary-text-color, 10%);
   &::first-letter {
-    font-size: 130%;
+    font-size: 150%;
+    color: darken($secondary-text-color, 15%);
   }
 }
