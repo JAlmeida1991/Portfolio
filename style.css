@@ -35,12 +35,7 @@ body {
   color: #212121;
   border-bottom: 0.4rem solid #bdbdbd;
   height: 85vh;
-}
-
-@media screen and (max-width: 30rem) {
-  #about {
-    height: auto;
-  }
+  min-height: 60rem;
 }
 
 .about__title {
@@ -57,7 +52,7 @@ body {
   margin: 0.5rem 1.5rem 1.5rem 1.5rem;
 }
 
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 30em) {
   .about__intro {
     font-size: 1.6rem;
   }
@@ -69,7 +64,7 @@ body {
   font-style: italic;
 }
 
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 30em) {
   .about__title--sub {
     font-size: 2.5rem;
   }
@@ -80,7 +75,7 @@ body {
   margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 30em) {
   .about-skill {
     font-size: 3.5rem;
   }
@@ -146,7 +141,7 @@ body {
   margin: 0.5rem 1.5rem 1.5rem 1.5rem;
 }
 
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 30em) {
   .contact-about {
     font-size: 1.6rem;
   }
@@ -245,7 +240,7 @@ body {
   display: grid;
   -ms-grid-columns: (minmax(250px, 1fr))[auto-fill];
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-gap: 1rem;
+  gap: 1.5rem;
   justify-items: center;
 }
 /*# sourceMappingURL=style.css.map */

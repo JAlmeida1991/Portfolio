@@ -23,6 +23,6 @@
 .container__projects--vanilla {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-gap: 1rem;
+  gap: 1.5rem;
   justify-items: center;
 }
