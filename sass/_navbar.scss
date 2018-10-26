@@ -3,6 +3,9 @@
   justify-content: space-between;
   background-color: $dark-primary-color;
   align-items: center;
+  @media screen and(max-width: 30em) {
+    display: none;
+  }
 }
 
 .header::before {

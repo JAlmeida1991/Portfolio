@@ -36,6 +36,7 @@ body {
   border-bottom: 0.4rem solid #bdbdbd;
   height: 85vh;
   min-height: 60rem;
+  position: relative;
 }
 
 .about__title {
@@ -169,6 +170,12 @@ body {
           align-items: center;
 }
 
+@media screen and (max-width: 30em) {
+  .header {
+    display: none;
+  }
+}
+
 .header::before {
   content: "J.A.";
   color: #fff;
@@ -242,5 +249,41 @@ body {
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1.5rem;
   justify-items: center;
+}
+
+.burger {
+  cursor: pointer;
+  position: absolute;
+  right: 1rem;
+  z-index: 1;
+}
+
+@media screen and (min-width: 30em) {
+  .burger {
+    display: none;
+  }
+}
+
+.burger-1, .burger-2, .burger-3 {
+  width: 3.5rem;
+  height: 0.5rem;
+  background-color: #1976d2;
+  margin: 0.6rem 0;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+.transform .burger-1 {
+  -webkit-transform: rotate(-45deg) translate(-0.9rem, 0.6rem);
+          transform: rotate(-45deg) translate(-0.9rem, 0.6rem);
+}
+
+.transform .burger-2 {
+  opacity: 0;
+}
+
+.transform .burger-3 {
+  -webkit-transform: rotate(45deg) translate(-0.8rem, -0.8rem);
+          transform: rotate(45deg) translate(-0.8rem, -0.8rem);
 }
 /*# sourceMappingURL=style.css.map */

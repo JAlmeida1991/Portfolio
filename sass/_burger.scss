@@ -1,0 +1,31 @@
+.burger {
+  cursor: pointer;
+  position: absolute;
+  right: 1rem;
+  z-index: 1;
+  @media screen and(min-width: 30em) {
+    display: none;
+  }
+
+  &-1,
+  &-2,
+  &-3 {
+    width: 3.5rem;
+    height: 0.5rem;
+    background-color: $dark-primary-color;
+    margin: 0.6rem 0;
+    transition: 0.4s ease-in-out;
+  }
+}
+
+.transform .burger-1 {
+  transform: rotate(-45deg) translate(-0.9rem, 0.6rem);
+}
+
+.transform .burger-2 {
+  opacity: 0;
+}
+
+.transform .burger-3 {
+  transform: rotate(45deg) translate(-0.8rem, -0.8rem);
+}
