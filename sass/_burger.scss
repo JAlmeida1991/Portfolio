@@ -1,8 +1,9 @@
 .burger {
   cursor: pointer;
   position: absolute;
-  right: 1rem;
-  z-index: 1;
+  right: 1.5rem;
+  top: 1.5rem;
+  z-index: 9999;
   @media screen and(min-width: 30em) {
     display: none;
   }
@@ -12,7 +13,7 @@
   &-3 {
     width: 3.5rem;
     height: 0.5rem;
-    background-color: $dark-primary-color;
+    background-color: $text-primary-color;
     margin: 0.6rem 0;
     transition: 0.4s ease-in-out;
   }

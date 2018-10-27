@@ -3,9 +3,6 @@
   justify-content: space-between;
   background-color: $dark-primary-color;
   align-items: center;
-  @media screen and(max-width: 30em) {
-    display: none;
-  }
 }
 
 .header::before {
@@ -15,18 +12,34 @@
   font-size: 2.2rem;
   padding-left: 1rem;
   font-weight: normal;
+  @media screen and(max-width: 30em) {
+    display: none;
+  }
 }
 
 .nav {
+  @media screen and(max-width: 30em) {
+    display: none;
+  }
   &-list {
+    transition: transform 1s;
     list-style: none;
     display: flex;
     justify-content: flex-end;
+
+    @media screen and(max-width: 30em) {
+      display: block;
+      width: 100vw;
+      transform: translateY(-100%);
+    }
   }
 
   &-item {
     padding: 1rem;
     font-size: 1.8rem;
+    @media screen and(max-width: 30em) {
+      text-align: center;
+    }
     &:hover {
       background-color: $accent-color;
     }
@@ -35,4 +48,14 @@
     color: $text-primary-color;
     text-decoration: none;
   }
+}
+
+// JS-Only classes for Navbar
+
+.block-js {
+  display: block;
+}
+
+.transform-zero-js {
+  transform: translateY(0);
 }

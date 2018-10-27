@@ -170,12 +170,6 @@ body {
           align-items: center;
 }
 
-@media screen and (max-width: 30em) {
-  .header {
-    display: none;
-  }
-}
-
 .header::before {
   content: "J.A.";
   color: #fff;
@@ -185,7 +179,23 @@ body {
   font-weight: normal;
 }
 
+@media screen and (max-width: 30em) {
+  .header::before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 30em) {
+  .nav {
+    display: none;
+  }
+}
+
 .nav-list {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -195,9 +205,24 @@ body {
           justify-content: flex-end;
 }
 
+@media screen and (max-width: 30em) {
+  .nav-list {
+    display: block;
+    width: 100vw;
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+}
+
 .nav-item {
   padding: 1rem;
   font-size: 1.8rem;
+}
+
+@media screen and (max-width: 30em) {
+  .nav-item {
+    text-align: center;
+  }
 }
 
 .nav-item:hover {
@@ -207,6 +232,15 @@ body {
 .nav-link {
   color: #fff;
   text-decoration: none;
+}
+
+.block-js {
+  display: block;
+}
+
+.transform-zero-js {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 .container__about {
@@ -254,8 +288,9 @@ body {
 .burger {
   cursor: pointer;
   position: absolute;
-  right: 1rem;
-  z-index: 1;
+  right: 1.5rem;
+  top: 1.5rem;
+  z-index: 9999;
 }
 
 @media screen and (min-width: 30em) {
@@ -267,7 +302,7 @@ body {
 .burger-1, .burger-2, .burger-3 {
   width: 3.5rem;
   height: 0.5rem;
-  background-color: #1976d2;
+  background-color: #fff;
   margin: 0.6rem 0;
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
