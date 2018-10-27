@@ -1,13 +1,20 @@
-.burger {
-  cursor: pointer;
-  position: absolute;
-  right: 1.5rem;
-  top: 1.5rem;
+.burger-container {
+  position: relative;
   z-index: 9999;
+  height: 5rem;
+  width: 100%;
+  background-color: darken($dark-primary-color, 15%);
   @media screen and(min-width: 30em) {
     display: none;
   }
+}
 
+.burger {
+  cursor: pointer;
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+  z-index: 9999;
   &-1,
   &-2,
   &-3 {

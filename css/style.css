@@ -170,6 +170,15 @@ body {
           align-items: center;
 }
 
+@media screen and (max-width: 30em) {
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+}
+
 .header::before {
   content: "J.A.";
   color: #fff;
@@ -285,18 +294,26 @@ body {
   justify-items: center;
 }
 
-.burger {
-  cursor: pointer;
-  position: absolute;
-  right: 1.5rem;
-  top: 1.5rem;
+.burger-container {
+  position: relative;
   z-index: 9999;
+  height: 5rem;
+  width: 100%;
+  background-color: #11508e;
 }
 
 @media screen and (min-width: 30em) {
-  .burger {
+  .burger-container {
     display: none;
   }
+}
+
+.burger {
+  cursor: pointer;
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+  z-index: 9999;
 }
 
 .burger-1, .burger-2, .burger-3 {
