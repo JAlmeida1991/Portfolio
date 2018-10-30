@@ -4,8 +4,11 @@
   color: $primary-text-color;
   border-bottom: 0.4rem solid $divider-color;
   height: 85vh;
-  min-height: 60rem;
+  // min-height: 60rem;
   position: relative;
+  @media only screen and(max-width: 52em) {
+    height: auto;
+  }
 }
 
 .about__title {

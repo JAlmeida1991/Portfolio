@@ -35,8 +35,13 @@ body {
   color: #212121;
   border-bottom: 0.4rem solid #bdbdbd;
   height: 85vh;
-  min-height: 60rem;
   position: relative;
+}
+
+@media only screen and (max-width: 52em) {
+  #about {
+    height: auto;
+  }
 }
 
 .about__title {
