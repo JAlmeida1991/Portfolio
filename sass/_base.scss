@@ -26,8 +26,8 @@ body {
   background-color: $light-primary-color;
 }
 
-// p::selection {
-//   background-color: $accent-color;
+// *::selection {
+//   background-color: $accent-color !important;
 // }
 
 html,
