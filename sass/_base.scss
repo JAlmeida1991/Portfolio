@@ -21,6 +21,11 @@ html {
   font-size: 62.5%;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: $light-primary-color;
@@ -29,8 +34,3 @@ body {
 // *::selection {
 //   background-color: $accent-color !important;
 // }
-
-html,
-body {
-  height: 100%;
-}
