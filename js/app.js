@@ -11,7 +11,12 @@
     document.getElementById(`${page}-link`).addEventListener("click", e => {
       // Need to prevent default behavior of link in order for smooth transition
       e.preventDefault();
+      // Add transition to section
       document.getElementById(page).scrollIntoView({ behavior: "smooth" });
+      // Close burger
+      transformBurger();
+      // Close dropdown
+      dropDownMenu();
     });
   }
 
