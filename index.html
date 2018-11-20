@@ -1,173 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="./img/favicon.ico" />
+    <title>Jonathan Almeida | Developer</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-        crossorigin="anonymous">
-    <link rel="icon" href="./img/favicon.ico">
-    <title>Jonathan Almeida | Developer </title>
-</head>
-
-<body>
-
+  <body>
     <!-- NAV SECTION -->
 
     <header class="header">
-        <div class="burger-container">
-            <div class="burger">
-                <div class="burger-1"></div>
-                <div class="burger-2"></div>
-                <div class="burger-3"></div>
-            </div>
+      <div class="burger-container">
+        <div class="burger">
+          <div class="burger-1"></div>
+          <div class="burger-2"></div>
+          <div class="burger-3"></div>
         </div>
-        <nav class="nav">
-            <ul class="nav-list">
-                <li id='about-link' class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                <li id='projects-link' class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                <li id='contact-link' class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li id="about-link" class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li id="projects-link" class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li id="contact-link" class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-
-
-
 
     <!-- ABOUT SECTION -->
 
-    <Section id="about">
-        <h1 class="about__title">About</h1>
-        <p class="about__intro">
-            Hello World! My name is Jonathan Almeida and I am an aspiring Web Developer. I am currently working as
-            an Accounts Payable Coordinator with a Double Major in Economics and Philosophy from Rutgers
-            University. Currently, I'm in the process sharpening my skills and learning something new every day; coding
-            is mostly a hobby of mine, but I want to see if I can actually turn it into a career. In particular,
-            programming in JavaScript is really fun since I get to express myself in the form of code... I love the
-            problem solving aspects of developing since it forces me to think outside of the box.
-        </p>
+    <section id="about">
+      <h1 class="about__title">About</h1>
+      <p class="about__intro">
+        Hello World! My name is Jonathan Almeida and I am an aspiring Web
+        Developer. I am currently working as an Accounts Payable Coordinator
+        with a Double Major in Economics and Philosophy from Rutgers University.
+        Currently, I'm in the process sharpening my skills and learning
+        something new every day; coding is mostly a hobby of mine, but I want to
+        see if I can actually turn it into a career. In particular, programming
+        in JavaScript is really fun since I get to express myself in the form of
+        code... I love the problem solving aspects of developing since it forces
+        me to think outside of the box.
+      </p>
 
-        <div class="container__about">
-            <div class="container__about--sub">
-                <h2 class="about__title--sub">Front-End Skills:</h2>
-            </div>
-            <div class="container__about--sub">
-                <i class="fab fa-html5 about-skill"></i>
-                <i class="fab fa-css3 about-skill"></i>
-                <i class="fab fa-js about-skill"></i>
-                <i class="fab fa-git about-skill"></i>
-                <i class="fab fa-sass about-skill"></i>
-                <i class="fab fa-react about-skill"></i>
-            </div>
+      <div class="container__about">
+        <div class="container__about--sub">
+          <h2 class="about__title--sub">Front-End Skills:</h2>
         </div>
-    </Section>
-
-
+        <div class="container__about--sub">
+          <i class="fab fa-html5 about-skill"></i>
+          <i class="fab fa-css3 about-skill"></i>
+          <i class="fab fa-js about-skill"></i>
+          <i class="fab fa-git about-skill"></i>
+          <i class="fab fa-sass about-skill"></i>
+          <i class="fab fa-react about-skill"></i>
+        </div>
+      </div>
+    </section>
 
     <!-- PROJECT SECTION -->
 
-    <Section id="projects">
+    <section id="projects">
+      <!-- Vanilla JS Projects -->
+      <h1 class="projects-title">Projects (Vanilla JS)</h1>
 
-        <!-- Vanilla JS Projects -->
-        <h1 class="projects-title">Projects (Vanilla JS) </h1>
-
-        <div class="container__projects--vanilla">
-
-            <div class="project">
-                <a href="https://jalmeida1991.github.io/JS-Calculator/" target="_blank">
-                    <img src="./img/JS-Calculator.png" alt="JS-Calculator" class="project-img">
-                </a>
-            </div>
-
-            <div class="project">
-                <a href="https://jalmeida1991.github.io/Pomodoro/" target="_blank">
-                    <img src="./img/Pomodoro.png" alt="Pomodoro" class="project-img">
-                </a>
-            </div>
-
-            <div class="project">
-                <a href="https://jalmeida1991.github.io/Simon-Says/" target="_blank">
-                    <img src="./img/Simon-Says.png" alt="Simon Says" class="project-img">
-                </a>
-            </div>
-
-            <div class="project">
-                <a href="https://jalmeida1991.github.io/Weather-App/" target="_blank">
-                    <img src="./img/Weather-App.png" alt="Weather-App" class="project-img">
-                </a>
-            </div>
-
-            <div class="project">
-                <a href="https://jalmeida1991.github.io/Memory-Game/" target="_blank">
-                    <img src="./img/Memory-Game.png" alt="Memory-Game" class="project-img">
-                </a>
-            </div>
-
-
-
-            <div class="project">
-                <a href="https://jalmeida1991.github.io/Todo-List/" target="_blank">
-                    <img src="./img/Todo-List.png" alt="Todo-List" class="project-img">
-                </a>
-            </div>
-
-            <div class="project">
-                <a href="https://jalmeida1991.github.io/Random-Quote-Machine/" target="_blank">
-                    <img src="./img/Random-Quote-Machine.png" alt="Random-Quote-Machine" class="project-img">
-                </a>
-            </div>
-
-            <div class="project">
-                <a href="https://jalmeida1991.github.io/Tic-Tac-Toe/" target="_blank">
-                    <img src="./img/Tic-Tac-Toe.png" alt="Tic-Tac-Toe" class="project-img">
-                </a>
-            </div>
-
-            <div class="project">
-                <a href="https://jalmeida1991.github.io/Rock-Paper-Scissors/" target="_blank">
-                    <img src="./img/Rock-Paper-Scissors.png" alt="Rock-Paper-Scissors" class="project-img">
-                </a>
-            </div>
-
-            <div class="project">
-                <a href="https://jalmeida1991.github.io/Etch-A-Sketch/" target="_blank">
-                    <img src="./img/Etch-A-Sketch.png" alt="Etch-A-Sketch" class="project-img">
-                </a>
-            </div>
-
+      <div class="container__projects--vanilla">
+        <div class="project">
+          <a
+            href="https://jalmeida1991.github.io/JS-Calculator/"
+            target="_blank"
+          >
+            <img
+              src="./img/JS-Calculator.png"
+              alt="JS-Calculator"
+              class="project-img"
+            />
+          </a>
         </div>
 
-        <!-- React Projects -->
-        <h1 class="projects-title">Projects (React) </h1>
-
-        <div class="container__projects--react">
-
-            <div class="project">
-                <a href="https://jospp.netlify.com/" target="_blank">
-                    <img src="./img/Restaurant-Page.png" alt="Restaurant-Page" class="project-img">
-                </a>
-            </div>
-
+        <div class="project">
+          <a href="https://jalmeida1991.github.io/Pomodoro/" target="_blank">
+            <img src="./img/Pomodoro.png" alt="Pomodoro" class="project-img" />
+          </a>
         </div>
 
+        <div class="project">
+          <a href="https://jalmeida1991.github.io/Simon-Says/" target="_blank">
+            <img
+              src="./img/Simon-Says.png"
+              alt="Simon Says"
+              class="project-img"
+            />
+          </a>
+        </div>
+
+        <div class="project">
+          <a href="https://jalmeida1991.github.io/Weather-App/" target="_blank">
+            <img
+              src="./img/Weather-App.png"
+              alt="Weather-App"
+              class="project-img"
+            />
+          </a>
+        </div>
+
+        <div class="project">
+          <a href="https://jalmeida1991.github.io/Memory-Game/" target="_blank">
+            <img
+              src="./img/Memory-Game.png"
+              alt="Memory-Game"
+              class="project-img"
+            />
+          </a>
+        </div>
+
+        <div class="project">
+          <a href="https://jalmeida1991.github.io/Todo-List/" target="_blank">
+            <img
+              src="./img/Todo-List.png"
+              alt="Todo-List"
+              class="project-img"
+            />
+          </a>
+        </div>
+
+        <div class="project">
+          <a
+            href="https://jalmeida1991.github.io/Random-Quote-Machine/"
+            target="_blank"
+          >
+            <img
+              src="./img/Random-Quote-Machine.png"
+              alt="Random-Quote-Machine"
+              class="project-img"
+            />
+          </a>
+        </div>
+
+        <div class="project">
+          <a href="https://jalmeida1991.github.io/Tic-Tac-Toe/" target="_blank">
+            <img
+              src="./img/Tic-Tac-Toe.png"
+              alt="Tic-Tac-Toe"
+              class="project-img"
+            />
+          </a>
+        </div>
+
+        <div class="project">
+          <a
+            href="https://jalmeida1991.github.io/Rock-Paper-Scissors/"
+            target="_blank"
+          >
+            <img
+              src="./img/Rock-Paper-Scissors.png"
+              alt="Rock-Paper-Scissors"
+              class="project-img"
+            />
+          </a>
+        </div>
+
+        <div class="project">
+          <a
+            href="https://jalmeida1991.github.io/Etch-A-Sketch/"
+            target="_blank"
+          >
+            <img
+              src="./img/Etch-A-Sketch.png"
+              alt="Etch-A-Sketch"
+              class="project-img"
+            />
+          </a>
+        </div>
+      </div>
+
+      <!-- React Projects -->
+      <h1 class="projects-title">Projects (React)</h1>
+
+      <div class="container__projects--react">
+        <div class="project">
+          <a href="https://jospp.netlify.com/" target="_blank">
+            <img
+              src="./img/Restaurant-Page.png"
+              alt="Restaurant-Page"
+              class="project-img"
+            />
+          </a>
+        </div>
+
+        <div class="project">
+          <a href="https://budget-tracker.netlify.com/" target="_blank">
+            <img
+              src="./img/Budget-Tracker.png"
+              alt="Restaurant-Page"
+              class="project-img"
+            />
+          </a>
+        </div>
+      </div>
     </section>
-
 
     <!-- FOOTER SECTION -->
 
     <footer id="contact">
-        <h1 class="contact-title">Contact</h1>
-        <p class="contact-about">Feel free to contact me anytime! I would love to discuss anything regarding web
-            development in
-            general!</p>
-        <a class='contact-icon' href="https://www.linkedin.com/in/jalmeida1991" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a class='contact-icon' href="https://github.com/JAlmeida1991" target="_blank"> <i class="fab fa-github-square"></i></a>
-        <a class="contact-icon" href="mailto:jalmeida0291@gmail.com"><i class="fas fa-envelope-square"></i></a>
+      <h1 class="contact-title">Contact</h1>
+      <p class="contact-about">
+        Feel free to contact me anytime! I would love to discuss anything
+        regarding web development in general!
+      </p>
+      <a
+        class="contact-icon"
+        href="https://www.linkedin.com/in/jalmeida1991"
+        target="_blank"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <a
+        class="contact-icon"
+        href="https://github.com/JAlmeida1991"
+        target="_blank"
+      >
+        <i class="fab fa-github-square"></i
+      ></a>
+      <a class="contact-icon" href="mailto:jalmeida0291@gmail.com"
+        ><i class="fas fa-envelope-square"></i
+      ></a>
     </footer>
 
     <script src="./js/app.js"></script>
-</body>
-
+  </body>
 </html>
