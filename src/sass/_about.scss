@@ -21,10 +21,7 @@
 .about__intro {
   line-height: 2.5rem;
   margin: 0.5rem 1.5rem 1.5rem 1.5rem;
-
-  @media only screen and(max-width: 52em) {
-    font-size: 1.8rem;
-  }
+  font-size: 1.8rem;
   @media screen and (max-width: 30em) {
     font-size: 1.6rem;
   }
