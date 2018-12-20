@@ -23,15 +23,15 @@
 .container__projects--vanilla {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  gap: 2.5rem;
   justify-items: center;
 }
 
 .container__projects--react {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  gap: 2.5rem;
   justify-items: center;
   margin-bottom: 1rem;
 }
